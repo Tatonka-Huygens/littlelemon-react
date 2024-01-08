@@ -1,7 +1,7 @@
 import Logo from "./logo.png"
 
 function Header() {
-    const logo = <img src={Logo} height={250} width={800} alt="Logo" />
+    const logo = <img src={Logo} height={150} width={600} alt="Logo" />
     return (
         <header>
         {logo}
