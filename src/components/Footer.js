@@ -1,14 +1,14 @@
-import Logo from "./logo_footer.png"
+import Logo from "./logo.ico"
 
 function Footer() {
-  const logo = <img src={Logo} height={50} width={30} alt="Logo" />
+  const logo = <img src={Logo} height={50} width={50} alt="Logo" />
   return (
   <footer>
     <article>
       {logo}
     </article>
     <article>
-      <p>Little Lemon Restaurant • © 2023</p>
+      <p>Little Lemon Restaurant • © 2024</p>
     </article>
   </footer>
     )

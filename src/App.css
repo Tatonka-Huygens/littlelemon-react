@@ -38,17 +38,19 @@
 }
 
 body {
+  margin: 20px;
   font-family: 'Karla', sans-serif;
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: 5%;
   margin-right: 5%;
-  
+
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Markazi Text', serif;
   letter-spacing: 2px;;
-  
+
 }
 
 h1 {
@@ -66,7 +68,7 @@ h2 {
 
 p, ul{
   font-size: 1.25rem;;
-  color: #e4efe6;
+  color: #080808;
 }
 
 a {
@@ -78,22 +80,26 @@ a:hover {
   text-decoration: underline;
 }
 
+
 header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
+ #hero p {
+  color: #f8fbfa;
+}
 
 nav {
   background-color: #59775e;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-bottom: 0px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 nav ul {
@@ -126,12 +132,12 @@ nav ul a:hover {
 
 article {
   flex:1;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 article img {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 article ul {
@@ -146,27 +152,159 @@ main article {
   
 }
 
+#price {
+  color: #EE9972;
+}
+
+#spc {
+  display: flex;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: row;
+
+}
+
+#rj p {
+  text-align: center;
+}
+
+#button {
+  padding: .5rem 1rem;
+  border: 1px solid #495E57;
+  background-color:#495E57;
+  border-radius: 15px;
+  width: 80%;
+  font-size: 1.25rem;
+  display: block;
+  color: #fff;
+  line-height: 25px;
+  
+}
+
+#hero {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../src/components/Grill_B.jpg');
+  background-size: cover;
+  background-position: 75%;
+  border-radius: 15px;
+  color: white;
+  min-height: 200px;
+  text-align: center;
+  
+
+}
+
+#hero p {
+  font-size: 2rem;
+  margin:0;
+  text-shadow: 2px 2px 4px #333333;
+}
+
+.cta { 
+  display: inline-block; 
+  color: rgba(255, 255, 255, 0.9);
+  width: 200px; 
+  font-weight: bold; 
+  font-size: 1.5rem;
+  padding: 8px; 
+  border: 3px solid #fff; 
+  text-align: center; 
+  outline: none; 
+  text-decoration: none; 
+  margin: 1rem;
+  border-radius: 15px;
+} 
+
+.cta:hover {
+  color:#fff;
+  background:#495E57;
+  border: 3px solid #495E57; 
+}
+
+
+.cta2 { 
+  display: inline-block; 
+  color: rgba(6, 6, 6, 0.9);
+  width: 200px; 
+  font-weight: bold; 
+  font-size: 1.5rem;
+  padding: 8px; 
+  border: 3px solid hsl(0, 0%, 1%); 
+  text-align: center; 
+  outline: none; 
+  text-decoration: none; 
+  margin: 1rem;
+  border-radius: 15px;
+} 
+
+.cta2:hover {
+  color:#fff;
+  background:#495E57;
+  border: 3px solid #495E57; 
+}
+
+
+
+.heading-shadow {
+  text-shadow: 1px 1px 4px #333333;
+}
+
+
+button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background:#59775e;
+  border: 1px solid #F4CE14;
+}
 
 button {
   padding: .5rem 1rem;
   border: 1px solid #59775e;
   background-color:#F4CE14;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 100%;
   font-size: 1.25rem;
   display: block;
-  color: #fff;
   line-height: 25px;
 }
 
+#bookbg {
+  background-color: #59775e;
+  border: none;
+ 
+}
+#bookbg h1{
+  color:#F4CE14;
+}
+#bookbg h2{
+  color:hsl(45, 50%, 98%)
+}
 
+#bc {
+  text-align: center;
+  border: none;
+}
+
+#bgc {
+  background-color: #59775e;
+}
 
 footer {
   background-color: #59775e;
   padding: 1rem;
   display: flex;
   gap: 2rem 1rem;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 
@@ -184,10 +322,50 @@ footer p {
   border-right: none;
   text-align: right;
   padding-top: 1rem;;
+  color:#EDEFEE
 
 }
 
 main {
-  background-color: #F4CE14;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
 }
+
+.row {
+  display: grid;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 1rem;
+
+}
+
+.column {
+  flex-basis: 50%;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.column figure {
+  padding: 0px 12px;
+
+}
+
+figure {
+  margin: 0;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input, select{
+  width: 80%;
+  display: block;
+  padding: .5rem 1rem;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+}
+
 
