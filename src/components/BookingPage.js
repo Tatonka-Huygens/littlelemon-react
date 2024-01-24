@@ -7,6 +7,7 @@ import BookingForm from './BookingForm';
 function BookingPage() {
     const ria = <img src={RIA} height={300} width={450} alt="Restaurant Inside Alternative" />
     const ri = <img src={RI} height={300} width={450} alt="Restaurant Inside" />
+    const bf = <BookingForm/>
     return (
         <main id="bgc">
             <section id="spc">
@@ -23,8 +24,8 @@ function BookingPage() {
                     {ri}
                 </article>
             </section>
-            <section>
-            <BookingForm/>
+            <section id="spc">
+            {bf}
             </section>
         </main>
       )

@@ -16,8 +16,9 @@ function BookingForm() {
 
  const getIsFormValid = () => { 
    return ( 
-     selected !== "selected"
-     
+    selected !== "selected" &&
+     Ocasion !== "Ocasion" &&
+     date !== ""
    ); 
  }; 
  
@@ -25,19 +26,18 @@ function BookingForm() {
    setDate(""); 
    setTime(""); 
    setNumberOfDiners(""); 
-   setOcasion(""); 
+   setOcasion("Ocasion"); 
    setSelected("");
  }; 
  
  const handleSubmit = (e) => { 
-  e.preventDefault(); 
+   e.preventDefault(); 
    alert("Your Table has been Reserved. Thank you!"); 
    clearForm(); 
  }; 
  
  return ( 
    <section className="App"> 
-   <article className='art'>
      <form onSubmit={handleSubmit}> 
        <fieldset> 
          <h2>Make a Reservation</h2> 
@@ -93,6 +93,7 @@ function BookingForm() {
              <option value="Ocasion" disabled>Select Ocasion</option> 
              <option value="birthday">Birthday</option> 
              <option value="anniversary">Anniversary</option> 
+             <option value="wedding">Wedding</option>
            </select> 
          </div> 
          <div className="Field"> 
@@ -111,7 +112,6 @@ function BookingForm() {
          </button> 
        </fieldset> 
      </form> 
-     </article>
    </section> 
  ); 
 } 
