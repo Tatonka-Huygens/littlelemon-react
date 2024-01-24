@@ -37,6 +37,7 @@ function BookingForm() {
  
  return ( 
    <section className="App"> 
+   <article className='art'>
      <form onSubmit={handleSubmit}> 
        <fieldset> 
          <h2>Make a Reservation</h2> 
@@ -110,6 +111,7 @@ function BookingForm() {
          </button> 
        </fieldset> 
      </form> 
+     </article>
    </section> 
  ); 
 } 

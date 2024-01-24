@@ -20,6 +20,13 @@ fieldset {
   text-align: left;
 }
 
+.art {
+  display: flex;
+  justify-content: center;
+  border: none;
+
+}
+
 label {
   margin-bottom: 8px;
   font-size: 14px;

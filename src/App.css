@@ -235,9 +235,9 @@ section {
 } 
 
 .cta:hover {
-  color:#fff;
+  color: black;
   background:#495E57;
-  border: 3px solid #495E57; 
+  border: 3px solid black; 
 }
 
 
@@ -259,7 +259,7 @@ section {
 .cta2:hover {
   color:#fff;
   background:#495E57;
-  border: 3px solid #495E57; 
+  border: 3px solid #fff; 
 }
 
 
