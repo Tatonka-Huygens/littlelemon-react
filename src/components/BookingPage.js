@@ -1,5 +1,7 @@
 import RIA from './restaurant_inside_alternative.jpg';
 import RI from './restaurant_inside.jpg';
+import BookingForm from './BookingForm';
+
 
 
 function BookingPage() {
@@ -20,6 +22,9 @@ function BookingPage() {
                 <article id="bc">
                     {ri}
                 </article>
+            </section>
+            <section>
+            <BookingForm/>
             </section>
         </main>
       )

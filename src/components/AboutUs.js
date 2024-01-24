@@ -7,8 +7,8 @@ function AboutUs() {
 <section>
   <article>
     <h1>About Us</h1>
-    <div class="row">
-      <div class="column">
+    <div className="row">
+      <div className="column">
         <p>
           Based in Chicago, Illinois, Little Lemon is a family owned
           Mediterranean restaurant, focused on traditional recipes served with a
@@ -41,10 +41,10 @@ function AboutUs() {
           cuisines from the mediterranean region.
         </p>
       </div>
-      <div class="column">
-        <figure class="figure">
+      <div className="column">
+        <figure className="figure">
           {MA}
-          <figcaption class="figure-caption">
+          <figcaption className="figure-caption">
             Little Lemon owners Mario and Adrian.
           </figcaption>
         </figure>

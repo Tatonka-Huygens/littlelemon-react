@@ -13,9 +13,7 @@ function Specials() {
         <main>
             <section id="spc">
                 <article id="rj">
-                <p>
                 <h1>Specials</h1>
-                </p>
                 </article>
                 <article id="rj">
                 <p>
