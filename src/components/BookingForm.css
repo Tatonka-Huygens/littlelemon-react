@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex: 1;
-  height: 100vh;
+  height: 200vh;
   justify-content: center;
   align-items: center;
   background-color: #59775e;
