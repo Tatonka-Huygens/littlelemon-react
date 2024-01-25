@@ -112,7 +112,7 @@ function Login() {
              Role <sup>*</sup> 
            </label> 
            <select value={role} onChange={(e) => setRole(e.target.value)}> 
-             <option value="role">Role</option> 
+             <option value="role" disabled>Role</option> 
              <option value="individual">Individual</option> 
              <option value="business">Business</option> 
            </select> 

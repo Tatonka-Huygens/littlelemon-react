@@ -36,9 +36,9 @@ sup {
 }
 
 #but {
-  justify-content: center;
+  justify-content: left;
   align-items: flex-start;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -59,9 +59,9 @@ select {
 
 .FieldError {
   position: absolute;
-  bottom: -6px;
+  bottom: -2px;
   color: red;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .Row {
