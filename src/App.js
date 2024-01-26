@@ -2,7 +2,7 @@ import './App.css';
 import React from "react"
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Main from './components/Main';
+import Homepage from './components/Homepage';
 import Footer from './components/Footer';
 import {Routes, Route} from 'react-router-dom';
 import AboutUs from './components/AboutUs';
@@ -22,7 +22,7 @@ function App() {
       </article>
     </section>
       <Routes>
-        <Route path="/" element={<Main/>} />
+        <Route path="/" element={<Homepage/>} />
         <Route path="/about-us" element={<AboutUs/>} />
         <Route path="/menu" element={<Menu/>} />
         <Route path="/booking-page" element={<BookingPage/>} />

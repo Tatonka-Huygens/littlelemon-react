@@ -44,6 +44,7 @@ body {
   margin-bottom: 3rem;
   margin-left: 5%;
   margin-right: 5%;
+  background-color: #EE9972;
 
 }
 
@@ -85,7 +86,7 @@ header {
   flex-direction: column;
   align-content:center;
   justify-content: center;
-  background-color: hsl(180, 100%, 100%);
+  background-color: #EE9972;
   border-radius: 15px;
 }
 
@@ -107,10 +108,9 @@ header img {
 nav {
   display:flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   border-radius: 15px;
-  background-color: #59775e;
 }
 
 nav ul {
@@ -167,6 +167,8 @@ main article {
   background-color: #59775e;
 }
 
+
+
 #price label{
   color: #EE9972;
   font-size: large;
@@ -192,6 +194,7 @@ section {
   margin-top: 1rem;
   margin-bottom: 1rem;
   flex-direction: row;
+
 
 }
 
@@ -319,6 +322,7 @@ button {
 
 #bgc {
   background-color: #59775e;
+  border: 1px solid #EDEFEE;
 }
 
 footer {
@@ -327,6 +331,7 @@ footer {
   display: flex;
   gap: 2rem 1rem;
   border-radius: 15px;
+  border: 1px solid #EDEFEE;
 }
 
 

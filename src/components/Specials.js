@@ -17,7 +17,7 @@ function Specials() {
                 </article>
                 <article id="rj">
                 <p>
-                    <Link to="/order-online" className="cta2">Order Online</Link>
+                    <Link to="/order-online" className="cta2">Online Menu</Link>
                 </p>
                 </article>
             </section>

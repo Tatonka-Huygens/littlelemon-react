@@ -48,8 +48,8 @@ function Login() {
  }; 
  
  return ( 
-   <div className="App"> 
-
+   <div className="App">
+    <section>
      <form onSubmit={handleSubmit}> 
        <fieldset> 
          <h2>Sign Up</h2> 
@@ -121,7 +121,8 @@ function Login() {
            Create account 
          </button> 
        </fieldset> 
-     </form> 
+     </form>
+     </section>
    </div> 
  ); 
 } 
