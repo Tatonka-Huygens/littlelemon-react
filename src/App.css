@@ -44,7 +44,8 @@ body {
   margin-bottom: 3rem;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #EE9972;
+  
+
 
 }
 
@@ -86,8 +87,8 @@ header {
   flex-direction: column;
   align-content:center;
   justify-content: center;
-  background-color: #EE9972;
   border-radius: 15px;
+  margin-left: 3%;
 }
 
 header img {
@@ -111,6 +112,7 @@ nav {
   margin-top: 2rem;
   margin-bottom: 1rem;
   border-radius: 15px;
+  align-items:center;
 }
 
 nav ul {
@@ -161,10 +163,10 @@ article ul {
 }
 
 main article {
-  border: 1px solid #EDEFEE;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #59775e;
+
 }
 
 
@@ -182,6 +184,7 @@ main article {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 5px;
+  
 }
 
 
@@ -194,6 +197,7 @@ section {
   margin-top: 1rem;
   margin-bottom: 1rem;
   flex-direction: row;
+  
 
 
 }
@@ -322,7 +326,7 @@ button {
 
 #bgc {
   background-color: #59775e;
-  border: 1px solid #EDEFEE;
+  
 }
 
 footer {
@@ -331,7 +335,7 @@ footer {
   display: flex;
   gap: 2rem 1rem;
   border-radius: 15px;
-  border: 1px solid #EDEFEE;
+  
 }
 
 
@@ -357,6 +361,7 @@ main {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 15px;
+
 }
 
 .row {
