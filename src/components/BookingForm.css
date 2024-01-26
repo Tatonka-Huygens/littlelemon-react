@@ -1,7 +1,6 @@
 .App {
   display: flex;
   flex: 1;
-  
   justify-content: center;
   align-items: center;
   background-color: #59775e;
