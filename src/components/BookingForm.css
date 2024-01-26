@@ -17,6 +17,8 @@ fieldset {
   border-radius: 15px;
   flex-direction: column;
   text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 
