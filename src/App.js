@@ -16,9 +16,7 @@ function App() {
   return (
     <>
     <section>
-      <article>
       <Header/>
-      </article> 
       <article>
       <Nav/>
       </article>
