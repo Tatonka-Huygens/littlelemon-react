@@ -91,10 +91,13 @@ button[disabled] {
 
 h2 {
   color: white;
+  margin-left: 3%;
 }
 
 h1 {
   color:#F4CE14;
+  margin-left: 3%;
+  
 }
 
 main article {
