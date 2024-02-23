@@ -3,10 +3,6 @@ import {useState} from "react";
 import { RadioGroup, RadioOption } from "./Radio";
 
 
-
- 
-
-
 function BookingForm() { 
  const [date, setDate] = useState(""); 
  const [time, setTime] = useState(""); 
