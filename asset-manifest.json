@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2390c067.css",
+    "main.js": "/static/js/main.54884668.js",
+    "static/js/787.dccc44a2.chunk.js": "/static/js/787.dccc44a2.chunk.js",
+    "static/media/restaurant_inside.jpg": "/static/media/restaurant_inside.068c1cd25d7aeea27e9f.jpg",
+    "static/media/restaurant_inside_alternative.jpg": "/static/media/restaurant_inside_alternative.4d582de48b930da04116.jpg",
+    "static/media/Greek_salad.jpg": "/static/media/Greek_salad.32e9ca8f656089939cd1.jpg",
+    "static/media/Mario_and_Adrian.jpg": "/static/media/Mario_and_Adrian.11ff5f08577008596c48.jpg",
+    "static/media/Bruschetta.jpg": "/static/media/Bruschetta.ed1d0d48d99dd3257ceb.jpg",
+    "static/media/Grill_B.jpg": "/static/media/Grill_B.f993353515cf4cbd182a.jpg",
+    "static/media/Lemon_dessert.jpg": "/static/media/Lemon_dessert.a49e7beb167177220f67.jpg",
+    "static/media/logo.png": "/static/media/logo.d4cae6fac8384c2dae04.png",
+    "static/media/logo.ico": "/static/media/logo.59ba5576d892a4a5903f.ico",
+    "index.html": "/index.html",
+    "main.2390c067.css.map": "/static/css/main.2390c067.css.map",
+    "main.54884668.js.map": "/static/js/main.54884668.js.map",
+    "787.dccc44a2.chunk.js.map": "/static/js/787.dccc44a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2390c067.css",
+    "static/js/main.54884668.js"
+  ]
+}
