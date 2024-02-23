@@ -15,7 +15,7 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "http://Tatonka-Huygens.github.io/littlelemon-react"
+    "homepage": "https://Tatonka-Huygens.github.io/littlelemon-react"
   },
   "scripts": {
     "start": "react-scripts start",
