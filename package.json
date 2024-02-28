@@ -15,7 +15,7 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://Tatonka-Huygens.github.io/littlelemon-react"
+    "homepage": "https://tatonka-huygens.github.io/little-lemon-react"
   },
   "scripts": {
     "predeploy": "npm run build",
